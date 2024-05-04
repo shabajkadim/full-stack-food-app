@@ -21,6 +21,6 @@ mongoose.connect(process.env.DATABASE_URL).then(() => {
   console.log("Database connected..");
 });
 
-app.listen(8000, () => {
-  console.log("server running on port 8000");
+app.listen(8080, () => {
+  console.log("server running on port 8080");
 });
