@@ -39,3 +39,7 @@
 //     }
 //     res.send({message:"paymentsuccess",success:true})
 // }
+
+export const CheckPayment=async(req,res)=>{
+    console.log(req.body);
+}
